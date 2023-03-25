@@ -1,0 +1,73 @@
+@font-face {
+  font-family: Starjout;
+  src: url(../../assets/fonts/Stjedise.ttf);
+}
+
+.card {
+  width: 300px;  
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px;
+  background-image: url(../../assets/img/card_bg_2.jpg);
+  background-size: cover;
+  border: 2px solid yellow;
+  border-radius: 10px;
+  font-family: Stjedise;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {   
+  font-size: 24px;  
+  color: yellow;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+img {
+  width: 70%;  
+  margin: 10px;
+}
+
+hr {
+  border: 1px solid #14151C;
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+  padding: 10px;
+  width: 100%;  
+  background-color: rgba(255, 255, 255, .4);
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  color: #14151C;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.hero__property {
+  font-weight: bold;
+}
+
+.hero__link {
+  text-align: center;
+  color: #14151C;
+  display: block;
+  text-decoration: none;
+  padding: 10px 20px;
+  background-color: yellow;
+  border-radius: 5px;
+  width: 100%;
+  margin: 20px 0 10px 0;
+}
+
+.hero__link:hover {
+  background-color: #14151C;
+  color: yellow;
+}
